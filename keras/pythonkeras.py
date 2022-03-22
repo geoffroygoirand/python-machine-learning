@@ -8,3 +8,5 @@ model.add(layers.Dense(3, activation="relu"))
 model.add(layers.Dense(4))
 
 model.summary()
+
+model.fit(X,Y)
