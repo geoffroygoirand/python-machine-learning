@@ -1,6 +1,10 @@
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
+import numpy as np
+
+X = np.random.randn(100)
+Y = np.random.randn(100)
 
 model = keras.Sequential()
 model.add(layers.Dense(2, activation="relu"))
