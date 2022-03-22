@@ -10,3 +10,5 @@ model.add(layers.Dense(4))
 model.summary()
 
 model.fit(X,Y, nb_epoch=100, verbose=False)
+
+model.compile(loss='caterogical_crossentropy', optimizer='sgd', metrics=['accuracy'])
