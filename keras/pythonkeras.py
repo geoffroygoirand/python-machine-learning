@@ -9,4 +9,4 @@ model.add(layers.Dense(4))
 
 model.summary()
 
-model.fit(X,Y)
+model.fit(X,Y, nb_epoch=100, verbose=False)
